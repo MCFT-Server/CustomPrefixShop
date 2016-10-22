@@ -1,0 +1,18 @@
+name: CustomPrefixShop
+main: customprefixshop.Main
+author: maru
+verison: "1.0.0"
+api: ["1.0.0"]
+depend:
+- MyCash
+- MyPrefix
+
+commands:
+ 개인칭호:
+  usage: /개인칭호 <구매|취소>
+  description: 개인 칭호를 구매합니다.
+  permission: customprefixshop.commands.*
+
+permissions:
+ customprefixshop.commands.*:
+  default: true
